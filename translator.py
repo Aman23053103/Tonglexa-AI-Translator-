@@ -4,7 +4,7 @@ import google.generativeai as genai
 # ----------------------------
 # Configure Gemini API Key
 # ----------------------------
-GOOGLE_API_KEY = "AIzaSyASJrZ6FgGoSf2YBOo-C1xIvhP8qfib74c"  # ← Replace with your actual Gemini API key
+GOOGLE_API_KEY = "YOUR API KEY"  # ← Replace with your actual Gemini API key
 genai.configure(api_key=GOOGLE_API_KEY)
 
 # Use Gemini Flash (optimized for speed)
